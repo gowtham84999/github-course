@@ -11,4 +11,4 @@ run-shell-command:
     - name: multiscript
       run: |
         node -v
-        npm -v
+      
