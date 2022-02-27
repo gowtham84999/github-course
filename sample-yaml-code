@@ -1,1 +1,14 @@
+name: shell command
 
+on: [push]
+
+jobs:
+run-shell-command:
+  run-on: ubuntu-latest
+  steps:
+    - name: echo a string
+      run: echo"hellow world"
+    - name: multiscript
+      run: |
+        node -v
+        npm -v
